@@ -1,0 +1,61 @@
+@charset "utf-8";
+
+body,h1,p{
+	margin: 0;
+	padding: 0;
+}
+body{
+	color: #333333;
+	font-family: '微软雅黑';
+	background: #F7F7F7;
+}
+#content{
+	width: 809px;
+	margin: 0 auto;
+}
+#content h1{
+	font-size: 22px;
+	font-weight: normal;
+	background: url('../images/h1_bg.png') no-repeat left;
+	margin-top: 62px;
+	padding-left: 18px;
+}
+#content .form{
+	width: 809px;
+	height: 353px;
+	background: #FEFEFE;
+	box-shadow: 0 0 9px 4px #DEDEDE;
+	margin: 16px 0 114px;
+}
+#content .form form{
+	padding-top: 58px;
+	margin-left: 94px;
+}
+#content .form p{
+	font-size: 16px;
+	background: url('../images/hx.png') no-repeat 68px 4px;
+}
+#content .form input{
+	width: 262px;
+	height: 31px;
+	border: 1px solid #A2C1D5;
+	margin-bottom: 17px;
+	margin-left: 20px;
+}
+#content .form button{
+	width: 180px;
+	height: 48px;
+	border: 1px solid #C7E9F8;
+	border-radius: 10px;
+	background: #2BB3F3;
+}
+#content .form button a{
+	font-size: 18px;
+	display: block;
+}
+#content h1,#content .form button a{
+	line-height: 36px;
+}
+#content .form p,#content .form button a{
+	font-weight: bold;
+}

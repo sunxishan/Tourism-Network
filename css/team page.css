@@ -1,0 +1,28 @@
+@charset "utf-8";
+
+body,p{
+	margin: 0;
+	padding: 0;
+}
+.clearfix::after{
+	content: '';
+	display: block;
+	clear: both;
+}
+#content #cont3 .team{
+	margin-bottom: -1px;
+}
+#content #cont3 .show p{
+	line-height: 36px;
+	color: #666666;
+	margin-left: 79px;
+}
+#content #cont3 .show .p1{
+	margin-top: 34px;
+}
+#content #cont3 .show .p1 span{
+	color: #000000;
+}
+#content #cont3 .show .p2 span{
+	color: #333333;
+}

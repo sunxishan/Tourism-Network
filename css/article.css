@@ -1,0 +1,126 @@
+@charset "utf-8";
+
+body,h1,h3,p,button{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+	color: #317CB7;
+}
+.clearfix::after{
+	content: '';
+	display: block;
+	clear: both;
+}
+.comWidth{
+	width: 960px;
+	margin: 0 auto;
+}
+body{
+	font-size: 14px;
+	font-family: '宋体';
+	color: #656565;
+	background: url('../images/bg.png') center repeat-y;
+}
+#content h1{
+	font-size: 20px;
+	font-family: '微软雅黑';
+	font-weight: bold;
+	text-align: center;
+	line-height: 36px;
+	margin-top: 16px;
+}
+#content img{
+	width: 610px;
+	height: 458px;
+	/* margin: 0 auto; */
+	margin-left: 177px;
+	margin-top: 10px;
+	margin-bottom: 14px;
+}
+#content .cont1 div{
+	width: 910px;
+	margin-left: 26px;
+}
+#content .cont1 div h3,#content .cont1 div p{
+	text-indent: 2em;
+}
+#content .cont1 div h3{
+	font-size: 14px;
+	color: #333333;
+	margin: 25px 0 16px;
+}
+#content .cont1 div p{
+	line-height: 26px;
+}
+#content .cont2 .add,#content .cont2 .ckxz,#content .cont2 .add,#content .cont2 .app{
+	margin-left: 22px;
+}
+#content .cont2 .add{
+	margin-top: 27px;
+}
+#content .cont2 span{
+	display: block;
+	width: 74px;
+	height: 22px;
+	color: #FFFFFF;
+	font-weight: bold;
+	background: #38A5FB;
+	text-align: center;
+	line-height: 22px;
+	margin-left: 9px;
+}
+#content .cont2 .line{
+	width: 915px;
+	height: 1px;
+	background: url('../images/span_line.png') no-repeat ;
+}
+#content .cont2 p{
+	line-height: 26px;
+	margin-left: 28px;
+}
+#content .cont2 .add .p1{
+	margin-top: 4px;
+}
+#content .cont2 .add .p2{
+	margin-bottom: 25px;
+}
+#content .cont2 .ckxz .p1{
+	margin-top: 15px;
+}
+#content .cont2 .ckxz .p2{
+	margin-bottom: 32px;
+}
+#content .cont2 .app .p1{
+	margin-top: 31px;
+	margin-right: 14px;
+}
+#content .cont2 .app button{
+	width: 160px;
+	height: 48px;
+	background: #F5F5F4;
+	border: 1px solid #A6D0F1;
+	border-radius: 5px;
+	margin-top: 21px;
+	margin-right: 11px;
+}
+#content .cont2 .app button a{
+	color: #317CB7;
+	font-family: '微软雅黑';
+	font-size: 22px;
+}
+#content .cont3{
+	width: 916px;
+	height: 203px;
+	margin: 22px 23px 6px 19px;
+	border: 1px solid #A2D4FC;
+}
+#content .cont3 img{
+	width: 210px;
+	height: 165px;
+	margin: 17px 0 21px 15px;
+}
+#content .cont2 .app .p1,#content .cont2 .app button,#content .cont3 img{
+	float: left;
+}

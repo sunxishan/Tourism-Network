@@ -1,0 +1,16 @@
+@charset "utf-8";
+
+body{
+	margin: 0;
+	padding: 0;
+}
+#content #cont3 .team{
+	margin-bottom: -1px;
+}
+#content #cont3 .show p{
+	margin-left: 88px;
+}
+#content #cont3 .show .p1{
+	margin-top: 29px;
+	margin-bottom: 10px;
+}
